@@ -44,7 +44,7 @@ API returns a Calendar object in JSON format.
 
 ## Usage
 
-Execute downloaded jar file:
+Execute downloaded/generated jar file:
 
 ```bash
 java -jar event-scheduler-0.0.1-SNAPSHOT.jar
@@ -54,7 +54,7 @@ java -jar event-scheduler-0.0.1-SNAPSHOT.jar
 
 Download postman configuration : 
 
-
+>[https://github.com/engingonul/event-scheduler/blob/main/src/main/resources/data/Event%20Scheduler.postman_collection.json](https://github.com/engingonul/event-scheduler/blob/main/src/main/resources/data/Event%20Scheduler.postman_collection.json)
 
 ## Example Data
 
