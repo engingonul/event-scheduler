@@ -46,6 +46,8 @@ API returns a Calendar object in JSON format.
 
 Execute downloaded/generated jar file:
 
+> [https://github.com/engingonul/event-scheduler/blob/main/src/main/resources/data/event-scheduler-0.0.1-SNAPSHOT.jar](https://github.com/engingonul/event-scheduler/blob/main/src/main/resources/data/event-scheduler-0.0.1-SNAPSHOT.jar)
+
 ```bash
 java -jar event-scheduler-0.0.1-SNAPSHOT.jar
 ```
