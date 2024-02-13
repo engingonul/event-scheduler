@@ -52,7 +52,7 @@ java -jar event-scheduler-0.0.1-SNAPSHOT.jar
 
 ## Postman
 
-Download postman configuration : 
+Download and import postman collection : 
 
 >[https://github.com/engingonul/event-scheduler/blob/main/src/main/resources/data/Event%20Scheduler.postman_collection.json](https://github.com/engingonul/event-scheduler/blob/main/src/main/resources/data/Event%20Scheduler.postman_collection.json)
 
