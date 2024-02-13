@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "01cccf2d-e044-48c5-97fd-f4050c5120eb",
+		"name": "Event Scheduler",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10646028"
+	},
+	"item": [
+		{
+			"name": "Create Schedule",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Successful POST request\", function () {",
+							"    pm.expect(pm.response.code).to.be.oneOf([200, 201]);",
+							"});",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n  {\n    \"name\":\"Architecting Your Codebase\",\n    \"duration\": \"60min\"\n  },\n  {\n    \"name\":\"Overdoing it in Python\",\n    \"duration\": \"45min\"\n  },\n  {\n    \"name\":\"Flavors of Concurrency in Java\",\n    \"duration\": \"30min\"\n  },\n  {\n    \"name\":\"Ruby Errors from Mismatched Gem Versions\",\n    \"duration\": \"45min\"\n  },\n  {\n    \"name\":\"JUnit 5 - Shaping the Future of Testing on the JVM\",\n    \"duration\": \"45min\"\n  },\n  {\n    \"name\":\"Cloud Native Java\",\n    \"duration\": \"lightning\"\n  },\n  {\n    \"name\":\"Communicating Over Distance\",\n    \"duration\": \"60min\"\n  },\n  {\n    \"name\":\"AWS Technical Essentials\",\n    \"duration\": \"45min\"\n  },\n  {\n    \"name\":\"Continuous Delivery\",\n    \"duration\": \"30min\"\n  },\n  {\n    \"name\":\"Monitoring Reactive Applications\",\n    \"duration\": \"30min\"\n  },\n  {\n    \"name\":\"Pair Programming vs Noise\",\n    \"duration\": \"45min\"\n  },\n  {\n    \"name\":\"Rails Magic\",\n    \"duration\": \"60min\"\n  },\n  {\n    \"name\":\"Microservices \\\"Just Right\\\"\",\n    \"duration\": \"60min\"\n  },\n  {\n    \"name\":\"Clojure Ate Scala (on my project)\",\n    \"duration\": \"45min\"\n  },\n  {\n    \"name\":\"Perfect Scalability\",\n    \"duration\": \"30min\"\n  },\n  {\n    \"name\":\"Apache Spark\",\n    \"duration\": \"30min\"\n  },\n  {\n    \"name\":\"Async Testing on JVM\",\n    \"duration\": \"60min\"\n  },\n  {\n    \"name\":\"A World Without HackerNews\",\n    \"duration\": \"30min\"\n  },\n  {\n    \"name\":\"User Interface CSS in Apps \",\n    \"duration\": \"30min\"\n  }\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/schedule/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"schedule",
+						"create"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
